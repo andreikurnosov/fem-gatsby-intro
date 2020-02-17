@@ -14,6 +14,10 @@ const PostPreview = ({ post }) => (
       :first-of-type {
         margin-top: 1rem;
       }
+
+      ::selection {
+        background-color: purple;
+      }
     `}
   >
     <Link
